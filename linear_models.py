@@ -23,8 +23,8 @@ from scipy.ndimage import gaussian_filter
 # 配置
 # ─────────────────────────────────────────────────────────────
 
-NPZ_DIR    = "D:/BMI/pj/dataset_npz"  # build_dataset.py 的输出目录
-OUT_DIR    = "D:/BMI/pj/linear_results"
+NPZ_DIR    = "./dataset_npz"  # build_dataset.py 的输出目录
+OUT_DIR    = "./linear_results"
 
 LP_SIGMA   = 3       # 低频目标的高斯模糊 σ（像素），64×64 图上 σ=3 效果合理
 PCA_K      = 50      # PCA+Ridge 的输出主成分数
