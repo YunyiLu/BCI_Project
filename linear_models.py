@@ -23,7 +23,7 @@ from scipy.ndimage import gaussian_filter
 # 配置
 # ─────────────────────────────────────────────────────────────
 
-NPZ_DIR    = "./dataset_npz"  # build_dataset.py 的输出目录
+NPZ_DIR    = "./yunyi_data/dataset_npz"  # build_dataset.py 的输出目录（与 Stage 2/3 同源）
 OUT_DIR    = "./linear_results"
 
 LP_SIGMA   = 3       # 低频目标的高斯模糊 σ（像素），64×64 图上 σ=3 效果合理
